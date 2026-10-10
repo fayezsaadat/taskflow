@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320">
+  <defs>
+    <linearGradient id="gw" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e0e7ff"/>
+    </linearGradient>
+  </defs>
+  <rect x="20" y="40" width="240" height="240" rx="60" fill="#ffffff" opacity="0.16"/>
+  <rect x="20" y="40" width="240" height="240" rx="60" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.4"/>
+  <g fill="none" stroke="#ffffff" stroke-width="20" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M85 105 H175" opacity="0.7"/>
+    <path d="M85 145 H150" opacity="0.9"/>
+    <path d="M85 180 L120 215 L190 138"/>
+  </g>
+  <circle cx="180" cy="105" r="10" fill="#e0e7ff"/>
+  <text x="310" y="172" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="148" font-weight="800" letter-spacing="-4" fill="#ffffff">TaskFlow</text>
+</svg>

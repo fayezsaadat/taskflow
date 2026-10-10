@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="55%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="28" flood-color="#6366f1" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <!-- rounded square background -->
+  <rect x="40" y="40" width="432" height="432" rx="112" fill="url(#g1)" filter="url(#shadow)"/>
+  <!-- glass highlight -->
+  <rect x="40" y="40" width="432" height="216" rx="112" fill="#ffffff" opacity="0.10"/>
+  <!-- flow checkmark: three stacked layers converging into a check -->
+  <g fill="none" stroke="#ffffff" stroke-width="34" stroke-linecap="round" stroke-linejoin="round">
+    <!-- flow bars -->
+    <path d="M168 188 H300" opacity="0.55"/>
+    <path d="M168 256 H260" opacity="0.8"/>
+    <!-- check mark -->
+    <path d="M168 312 L230 374 L344 248"/>
+  </g>
+  <!-- accent dot -->
+  <circle cx="318" cy="188" r="17" fill="url(#g2)"/>
+</svg>

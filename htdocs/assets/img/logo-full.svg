@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="55%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+  </defs>
+  <!-- mark -->
+  <rect x="20" y="40" width="240" height="240" rx="60" fill="url(#g1)"/>
+  <g fill="none" stroke="#ffffff" stroke-width="20" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M85 105 H175" opacity="0.55"/>
+    <path d="M85 145 H150" opacity="0.8"/>
+    <path d="M85 180 L120 215 L190 138"/>
+  </g>
+  <circle cx="180" cy="105" r="10" fill="#c084fc"/>
+  <!-- wordmark -->
+  <text x="310" y="170" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="140" font-weight="800" letter-spacing="-4" fill="#0f172a">Task<tspan fill="#6366f1">Flow</tspan></text>
+</svg>
